@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "workshop05code.App",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
+            "name": "Launch with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "",
+            "args": "${41234567  encrypt  a1_file_to_encrypt.txt  encryptedfile.txt}",
+            "forceBuildBeforeLaunch": false
+        }
+    ]
+}
